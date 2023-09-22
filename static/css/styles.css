@@ -1,0 +1,66 @@
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.top-div{
+    position: relative;
+    margin-left: 90%;
+    color: #0000 !important;
+}
+
+@media (min-width: 992px) and (max-width: 1920px) {
+    .top-div{
+        position: relative;
+        margin-left: 40%;
+    }
+}
+
+.top-nav{
+    background-color: #31D2F2;
+    position: relative;
+}
+
+.brand{
+    margin-left: 100px;
+}
+
+.to-drop {
+    position: static !important;
+    float:right;
+}
+  
+.new-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top: 0px !important;
+    width: 100% !important;
+}
+
+#img-one {
+    width: 60%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.div-one {
+    margin: 0px 3%;
+    text-align: center;
+}
+
+#cs-service {
+    margin-right: 30px;
+}
+
+.hm-sec-a {
+    color: #ffff;
+    text-align: center;
+    padding: 150px;
+    height: 500px;
+    background-image: url('/static/images/container-img-002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+#new-btn {
+    margin: 10px;
+}
